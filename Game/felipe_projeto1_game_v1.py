@@ -15,7 +15,7 @@ def limpa_tela():
 						 # não precisamos do return só do resultado
 	# Mac ou Linux
 	else:
-		-=system('clear')
+		_= system('clear')
 
 # Função para o Game
 
@@ -44,7 +44,7 @@ def game():
 	# Loop enquanto para definir o limite de tentativas
 	while tentativas > 0:
 		# Prints de tela para o usuário
-		print(" ".)
+		print(" ")
 		pass
 
 
