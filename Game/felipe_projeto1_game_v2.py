@@ -16,15 +16,18 @@ def limpa_tela():
         _ = system('clear')
 
 # Função que desenha a forca na tela
-def display_hangman(chances):
+def display_hangman(chances): # Recebe como argumento o número de chances
 
     # Lista de estágios da forca
+    # Obs: A contrabarra é um caractere especial, caractere de escape, então para imprimir a contrabarra
+    # na tela é preciso por duas contrabarras
+    
     stages = [  # estágio 6 (final)
                 """
                    --------
                    |      |
                    |      O
-                   |     \\|/
+                   |     \\|/     
                    |      |
                    |     / \\
                    -
